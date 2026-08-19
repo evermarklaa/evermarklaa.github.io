@@ -570,8 +570,9 @@ footer{
   border-top:1px solid rgba(255,255,255,0.1); padding-top:20px;
   font-size:11px; letter-spacing:0.02em; display:flex; flex-direction:column; gap:6px;
 }
-.visit-counter{ margin-top:18px; display:flex; justify-content:center; }
-.visit-counter img{ height:20px; display:block; }
+.visit-counter{ margin-top:18px; display:flex; align-items:center; justify-content:center; gap:9px; }
+.visit-counter .vc-label{ font-size:11px; color:var(--color-muted-light); letter-spacing:0.05em; }
+.visit-counter img{ height:20px; display:block; border-radius:4px; }
 
 /* ============================================================
    Back To Top
@@ -1053,7 +1054,8 @@ footer{
       <span>本網站內容僅供參考，實際服務項目與法規適用請以現行法令及事務所說明為準。</span>
     </div>
     <div class="visit-counter">
-      <img src="https://visitor-badge.laobi.icu/badge?page_id=evermarklaa.github.io&title=到站人數&left_color=1a1a1a&right_color=b08d4f" alt="到站人數統計" loading="lazy">
+      <span class="vc-label">到站人數</span>
+      <img src="https://visitor-badge.laobi.icu/badge?page_id=evermarklaa.github.io&left_color=1a1a1a&right_color=b08d4f" alt="到站人數統計" loading="lazy">
     </div>
   </div>
 </footer>
